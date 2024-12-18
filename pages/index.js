@@ -26,6 +26,7 @@ export default function Home() {
         height={900}
       ></Image> */}
 
+      <h1>Authenticator</h1>
       <h1>Hello {session?.data?.user?.name}</h1>
       <button onClick={signOut}>Sign Out</button>
     </div>
